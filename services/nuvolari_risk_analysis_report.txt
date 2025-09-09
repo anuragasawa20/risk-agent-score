@@ -1,0 +1,95 @@
+🎯 NUVOLARI SAFE SCORE - COMPREHENSIVE RISK REPORT
+================================================================================
+Generated: 2025-09-10 00:00:59
+Wallets Analyzed: 4
+
+📊 EXECUTIVE SUMMARY
+----------------------------------------
+Average Risk Score: 70.7/100
+Risk Range: 54.5 - 78.5
+Risk Distribution:
+  • High Risk (≥60): 3 wallets
+  • Medium Risk (40-59): 1 wallets
+  • Low Risk (<40): 0 wallets
+
+🔍 DETAILED WALLET ANALYSIS
+========================================
+
+1. WALLET: 0x38e247893BbC8517a317c54Ed34F9C62cb5F26c0
+   Risk Score: 78.5/100 (HIGH)
+   Description: High-risk wallet requiring significant caution
+   Transactions: 149 (Success: 100.0%)
+   ETH Balance: 0.0490 ETH
+   Token Types: 41
+   Protocols: 1 identified
+   Component Scores:
+     • Transaction Patterns: 62.5/100
+     • Protocol Interactions: 100.0/100
+     • Asset Concentration: 43.0/100
+     • Behavioral Patterns: 79.5/100
+   Key Risk Factors:
+     • High success rate: 100.0%
+     • Very high DeFi usage: 91.9%
+     • High-risk protocols: 1/1
+   Recommendations:
+     • ⚠️ HIGH RISK: Significant caution required before any interactions
+     • 🏦 Protocol Risk: Wallet interacts with high-risk DeFi protocols
+
+2. WALLET: 0x3feC8fd95b122887551c19c73F6b2bbf445B8C87
+   Risk Score: 75.25/100 (HIGH)
+   Description: High-risk wallet requiring significant caution
+   Transactions: 65 (Success: 98.5%)
+   ETH Balance: 0.1518 ETH
+   Token Types: 22
+   Protocols: 1 identified
+   Component Scores:
+     • Transaction Patterns: 73.5/100
+     • Protocol Interactions: 100.0/100
+     • Asset Concentration: 51.0/100
+     • Behavioral Patterns: 64.5/100
+   Key Risk Factors:
+     • High success rate: 98.5%
+     • Very low activity: 0.049 tx/day
+     • No recent activity (30 days)
+   Recommendations:
+     • ⚠️ HIGH RISK: Significant caution required before any interactions
+     • 📊 Transaction Patterns: Review transaction success rates and activity patterns
+
+3. WALLET: 0x51db92258a3ab0f81de0feab5d59a77e49b57275
+   Risk Score: 74.6/100 (HIGH)
+   Description: High-risk wallet requiring significant caution
+   Transactions: 45 (Success: 100.0%)
+   ETH Balance: 0.0130 ETH
+   Token Types: 12
+   Protocols: 1 identified
+   Component Scores:
+     • Transaction Patterns: 62.5/100
+     • Protocol Interactions: 100.0/100
+     • Asset Concentration: 46.0/100
+     • Behavioral Patterns: 58.5/100
+   Key Risk Factors:
+     • High success rate: 100.0%
+     • Very high DeFi usage: 91.1%
+     • High-risk protocols: 1/1
+   Recommendations:
+     • ⚠️ HIGH RISK: Significant caution required before any interactions
+     • 🏦 Protocol Risk: Wallet interacts with high-risk DeFi protocols
+
+4. WALLET: 0x7a29aE65Bf25Dfb6e554BF0468a6c23ed99a8DC2
+   Risk Score: 54.45/100 (MEDIUM)
+   Description: Medium risk with some concerning factors
+   Transactions: 200 (Success: 94.5%)
+   ETH Balance: 0.1801 ETH
+   Token Types: 70
+   Protocols: 1 identified
+   Component Scores:
+     • Transaction Patterns: 78.0/100
+     • Protocol Interactions: 45.0/100
+     • Asset Concentration: 45.0/100
+     • Behavioral Patterns: 63.0/100
+   Key Risk Factors:
+     • High DeFi usage: 88.0%
+     • No recent activity (30 days)
+     • No DeFi protocol interactions - Low Risk
+   Recommendations:
+     • 📊 Transaction Patterns: Review transaction success rates and activity patterns

@@ -1,0 +1,10 @@
+requests 
+httpx 
+pydantic 
+fastapi 
+uvicorn 
+pandas 
+python-dotenv
+typing-extensions
+asyncio
+google-generativeai

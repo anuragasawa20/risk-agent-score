@@ -1,0 +1,2279 @@
+{
+  "0x7a29aE65Bf25Dfb6e554BF0468a6c23ed99a8DC2": {
+    "wallet_address": "0x7a29aE65Bf25Dfb6e554BF0468a6c23ed99a8DC2",
+    "analysis_timestamp": "2025-09-10T00:53:52.938719",
+    "analysis_duration_seconds": 7.35,
+    "risk_score": 54.45,
+    "risk_level": "MEDIUM",
+    "risk_description": "Medium risk with some concerning factors",
+    "component_scores": {
+      "transaction_patterns": 78.0,
+      "protocol_interactions": 45.0,
+      "asset_concentration": 45.0,
+      "behavioral_patterns": 63.0
+    },
+    "component_weights": {
+      "transaction_patterns": 0.25,
+      "protocol_interactions": 0.3,
+      "asset_concentration": 0.2,
+      "activity_frequency": 0.15,
+      "failure_rate": 0.1
+    },
+    "risk_factors": [
+      "High DeFi usage: 88.0%",
+      "No recent activity (30 days)",
+      "No DeFi protocol interactions - Low Risk",
+      "High diversification: 70 tokens",
+      "Stablecoin exposure: 1 tokens",
+      "Heavy fund outflow pattern",
+      "Established wallet (>2 years)"
+    ],
+    "recommendations": [
+      "\ud83d\udcca Transaction Patterns: Review transaction success rates and activity patterns",
+      "\ud83d\udcb5 Stablecoin Holdings: Good risk mitigation through stable assets",
+      "\ud83d\udcc8 Portfolio Management: Continue maintaining diversified holdings",
+      "\u23f0 Activity Monitoring: Regular activity helps establish trust patterns"
+    ],
+    "risk_distribution": {
+      "high": [
+        "transaction"
+      ],
+      "medium": [
+        "protocol",
+        "concentration",
+        "behavioral"
+      ],
+      "low": []
+    },
+    "scoring_methods": {
+      "rule_based": {
+        "overall_score": 40.75,
+        "risk_level": "MEDIUM",
+        "components": {
+          "transaction_patterns": 75.0,
+          "protocol_interactions": 0.0,
+          "asset_concentration": 35.0,
+          "behavioral_patterns": 60.0
+        }
+      },
+      "llm_based": {
+        "overall_score": 75,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 85,
+          "protocol_interactions": 90,
+          "asset_concentration": 60,
+          "behavioral_patterns": 70
+        },
+        "reasoning": "This wallet exhibits a high overall risk score primarily due to concerning transaction patterns and high-risk protocol interactions.  The significantly higher value outflow ($21.53) compared to inflow ($1.21) is a major red flag, suggesting potential exploitation or rug pull involvement. The high number of contract interactions (176 out of 200 transactions) points towards participation in DeFi protocols, many of which are inherently risky. While the success rate is relatively high (94.5%), the sheer volume of transactions increases the exposure to potential vulnerabilities. The identified tokens are largely meme coins and relatively unknown projects, indicating a high level of speculative investment and associated risk.  The lack of identified protocols in the analysis is concerning, as it suggests the wallet may be interacting with less transparent or unaudited protocols. The asset concentration score is moderate because while the wallet holds a variety of tokens, many are high-risk meme coins. The behavioral patterns score reflects the unusual value flow and high number of contract interactions.",
+        "key_insights": [
+          "Significant net outflow of funds ($20.32) is a major red flag, suggesting potential exploitation or participation in a rug pull.",
+          "High number of contract interactions (176) with a concentration on specific, largely unknown contracts increases exposure to smart contract vulnerabilities and potential scams.",
+          "Holding a portfolio heavily weighted towards meme coins and less established tokens indicates high risk tolerance and potential for significant losses."
+        ]
+      },
+      "hybrid": {
+        "overall_score": 54.45,
+        "risk_level": "MEDIUM",
+        "components": {
+          "transaction_patterns": 78.0,
+          "protocol_interactions": 45.0,
+          "asset_concentration": 45.0,
+          "behavioral_patterns": 63.0
+        },
+        "methodology": "60% rule-based + 40% Gemini"
+      }
+    },
+    "transaction_summary": {
+      "total_transactions": 200,
+      "success_rate": 94.5,
+      "recent_activity": 0,
+      "contract_interactions": 176,
+      "unique_addresses": 72,
+      "high_value_transactions": 5,
+      "activity_frequency": 0.17455661206304177,
+      "avg_gas_price": 68.07680378662,
+      "total_fees_paid": 1.5195558926937627
+    },
+    "protocol_summary": {
+      "protocols_identified": 1,
+      "protocols_interacted": 0,
+      "high_risk_protocols": 0,
+      "average_protocol_risk": 0,
+      "diversification_score": 0,
+      "total_tvl_exposure": 0,
+      "protocol_categories": [],
+      "risk_distribution": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      }
+    },
+    "asset_summary": {
+      "eth_balance": 0.1800553115165576,
+      "token_types": 70,
+      "is_contract": false,
+      "address_type": "Externally Owned Account (EOA)",
+      "quicknode_tx_count": 407
+    },
+    "detailed_analysis": {
+      "transaction_risk_details": {
+        "risk_score": 75.0,
+        "reasons": [
+          "High DeFi usage: 88.0%",
+          "No recent activity (30 days)"
+        ],
+        "metrics": {
+          "success_rate": 0.945,
+          "activity_frequency": 0.17455661206304177,
+          "high_value_ratio": 0.025,
+          "contract_interaction_ratio": 0.88,
+          "recent_activity": 0
+        }
+      },
+      "protocol_risk_details": {
+        "risk_score": 0.0,
+        "reasons": [
+          "No DeFi protocol interactions - Low Risk"
+        ],
+        "metrics": {}
+      },
+      "asset_risk_details": {
+        "risk_score": 35.0,
+        "reasons": [
+          "High diversification: 70 tokens",
+          "Stablecoin exposure: 1 tokens"
+        ],
+        "metrics": {
+          "eth_balance": 0.1800553115165576,
+          "token_count": 70,
+          "asset_diversification": "high"
+        }
+      },
+      "behavioral_risk_details": {
+        "risk_score": 60.0,
+        "reasons": [
+          "Heavy fund outflow pattern",
+          "Established wallet (>2 years)"
+        ],
+        "metrics": {
+          "avg_gas_price": 68.07680378662,
+          "value_flow_ratio": 17.79982119767143,
+          "largest_transaction": 4.49,
+          "interaction_diversity": 0.355,
+          "wallet_age_days": 1145.7600925925926
+        }
+      }
+    },
+    "raw_data": {
+      "transaction_patterns": {
+        "total_transactions": 200,
+        "successful_transactions": 189,
+        "failed_transactions": 11,
+        "unique_addresses": 72,
+        "contract_interactions": 176,
+        "high_value_transactions": 5,
+        "recent_activity": 0,
+        "gas_analysis": {
+          "total_gas_used": 23680110,
+          "avg_gas_price": 68.07680378662,
+          "total_fees": 1.5195558926937627
+        },
+        "time_analysis": {
+          "first_transaction": 1635253563,
+          "last_transaction": 1734247235,
+          "activity_frequency": 0.17455661206304177
+        },
+        "value_analysis": {
+          "total_value_in": 1.2094216982362924,
+          "total_value_out": 21.52748998119014,
+          "largest_transaction": 4.49,
+          "avg_transaction_value": 0.11368455839713217
+        },
+        "address_interactions": {
+          "most_frequent_addresses": {
+            "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b": 21,
+            "0x283af0b28c62c092c9727f1ee09c02ca627eb7f5": 14,
+            "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad": 10,
+            "0x7183209867489e1047f3a7c23ea1aed9c4e236e8": 10,
+            "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b": 8,
+            "0x881d40237659c251811cec9c364ef91dc08d300c": 7,
+            "0x7a250d5630b4cf539739df2c5dacb4c659f2488d": 7,
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 6,
+            "0xf1df7305e4bab3885cab5b1e4dfc338452a67891": 5,
+            "0xbcd7254a1d759efa08ec7c3291b2e85c5dcc12ce": 5
+          },
+          "interaction_diversity": 71
+        }
+      },
+      "protocol_analysis": {
+        "protocols": [],
+        "average_risk": 0,
+        "raw_average_risk": 0,
+        "high_risk_protocols": 0,
+        "total_tvl_interacted": 0,
+        "diversification_score": 0,
+        "categories": [],
+        "total_protocols": 0,
+        "concentration_penalty": 0,
+        "risk_distribution": {
+          "low": 0,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        }
+      },
+      "balance_data": {
+        "eth_balance": 0.1800553115165576,
+        "tokens": [
+          {
+            "contract_address": "0x774eaf7a53471628768dc679da945847d34b9a55",
+            "token_name": "Gasspas",
+            "token_symbol": "GASS",
+            "token_decimal": "18",
+            "last_transaction": "1750299743"
+          },
+          {
+            "contract_address": "0x2a82aa959f93a33ba1cee20dee63ac16d12373d9",
+            "token_name": "AgentNet",
+            "token_symbol": "AGT",
+            "token_decimal": "18",
+            "last_transaction": "1748439503"
+          },
+          {
+            "contract_address": "0x100db67f41a2df3c32cc7c0955694b98339b7311",
+            "token_name": "MoneyFund",
+            "token_symbol": "MONEY",
+            "token_decimal": "18",
+            "last_transaction": "1743073511"
+          },
+          {
+            "contract_address": "0x364c65347bdd77e6196fad96d42dbbd6d55cf719",
+            "token_name": "BRK690k",
+            "token_symbol": "BRK",
+            "token_decimal": "18",
+            "last_transaction": "1737888587"
+          },
+          {
+            "contract_address": "0x3fc29836e84e471a053d2d9e80494a867d670ead",
+            "token_name": "Ethereum Games",
+            "token_symbol": "ETHG",
+            "token_decimal": "8",
+            "last_transaction": "1736556239"
+          },
+          {
+            "contract_address": "0x6a52aba0e104d0e43254c7ddc4d86645560e4fd1",
+            "token_name": "up and to the right",
+            "token_symbol": "UPRIGHT",
+            "token_decimal": "18",
+            "last_transaction": "1736149919"
+          },
+          {
+            "contract_address": "0x0000000000c5dc95539589fbd24be07c6c14eca4",
+            "token_name": "Milady Cult Coin",
+            "token_symbol": "CULT",
+            "token_decimal": "18",
+            "last_transaction": "1733704463"
+          },
+          {
+            "contract_address": "0xc4b9e3aa1071741220a548832c887b39cb621970",
+            "token_name": "FUG",
+            "token_symbol": "FUG",
+            "token_decimal": "18",
+            "last_transaction": "1731441047"
+          },
+          {
+            "contract_address": "0xcfbe14352416503aae8fffa3fffc0b600312c0a1",
+            "token_name": "Bushido Inu",
+            "token_symbol": "BUSHIDO",
+            "token_decimal": "9",
+            "last_transaction": "1728946859"
+          },
+          {
+            "contract_address": "0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+            "token_name": "SPX6900",
+            "token_symbol": "SPX",
+            "token_decimal": "8",
+            "last_transaction": "1728800375"
+          },
+          {
+            "contract_address": "0x533ebcc7f6912ccf31f266c78db2fcc17007c3cc",
+            "token_name": "Team Murad",
+            "token_symbol": "TEAMMURAD",
+            "token_decimal": "18",
+            "last_transaction": "1728696395"
+          },
+          {
+            "contract_address": "0x61d6aa227a04c9e94ff5492251fdfad9faa6ae59",
+            "token_name": "NASDAQ4200",
+            "token_symbol": "NDX",
+            "token_decimal": "9",
+            "last_transaction": "1728396491"
+          },
+          {
+            "contract_address": "0x02e7f808990638e9e67e1f00313037ede2362361",
+            "token_name": "KiboShib",
+            "token_symbol": "KIBSHI",
+            "token_decimal": "18",
+            "last_transaction": "1727100635"
+          },
+          {
+            "contract_address": "0xa35923162c49cf95e6bf26623385eb431ad920d3",
+            "token_name": "Turbo",
+            "token_symbol": "TURBO",
+            "token_decimal": "18",
+            "last_transaction": "1726765751"
+          },
+          {
+            "contract_address": "0x07d3ed57bb36cc38c582d5051b3227c8ba9c8ebc",
+            "token_name": "! turbomeme.org",
+            "token_symbol": "Earn $TURBO rewards at https://turbomeme.org",
+            "token_decimal": "2",
+            "last_transaction": "1717204415"
+          },
+          {
+            "contract_address": "0x2feb66b99989f66f33d7f24dff3a196644e60f78",
+            "token_name": "Game Stop Pepe",
+            "token_symbol": "GMEPEPE",
+            "token_decimal": "8",
+            "last_transaction": "1715925695"
+          },
+          {
+            "contract_address": "0x9c3a57a95a128651ae088afb18e3f680fc4f0aae",
+            "token_name": "# TURBO Reward Ticket",
+            "token_symbol": "TURBO Reward Tickets (https://turbotokenlabs.com)",
+            "token_decimal": "1",
+            "last_transaction": "1710044351"
+          },
+          {
+            "contract_address": "0xf1df7305e4bab3885cab5b1e4dfc338452a67891",
+            "token_name": "PaLM AI",
+            "token_symbol": "PALM",
+            "token_decimal": "9",
+            "last_transaction": "1708273835"
+          },
+          {
+            "contract_address": "0xa0cc4428fbb652c396f28dce8868b8743742a71c",
+            "token_name": "Purple AI",
+            "token_symbol": "PAI",
+            "token_decimal": "18",
+            "last_transaction": "1708273487"
+          },
+          {
+            "contract_address": "0xe26c502ab6e9cfe540f051add0602602cf3a6b9a",
+            "token_name": "XPRO",
+            "token_symbol": "XPRO",
+            "token_decimal": "18",
+            "last_transaction": "1690558247"
+          },
+          {
+            "contract_address": "0x4719a12d4039d86c1161dbae7340483c80075936",
+            "token_name": "0xCoco",
+            "token_symbol": "COCO",
+            "token_decimal": "18",
+            "last_transaction": "1690531427"
+          },
+          {
+            "contract_address": "0x321f4f2ae9f9c5b2436f7e66cd01ad785d287aa6",
+            "token_name": "idk",
+            "token_symbol": "idk",
+            "token_decimal": "18",
+            "last_transaction": "1690446923"
+          },
+          {
+            "contract_address": "0xc377f2a92e763854a716fa10793beee7829360e9",
+            "token_name": "XBlue",
+            "token_symbol": "XBLUE",
+            "token_decimal": "18",
+            "last_transaction": "1690342919"
+          },
+          {
+            "contract_address": "0x73fcfc6ac4e824c5e24a82635ef72a81f81ad380",
+            "token_name": "SOPH AI Token",
+            "token_symbol": "SOPH",
+            "token_decimal": "18",
+            "last_transaction": "1690289867"
+          },
+          {
+            "contract_address": "0xc085c58e7d51b23a7708877916b4d73e4cb04a9e",
+            "token_name": "Aquarius",
+            "token_symbol": "AQUA",
+            "token_decimal": "18",
+            "last_transaction": "1690281467"
+          },
+          {
+            "contract_address": "0x750ce5cd6ef52b3ca9ed7a74d73a85f49e107a93",
+            "token_name": "Libra",
+            "token_symbol": "LIBRA",
+            "token_decimal": "18",
+            "last_transaction": "1690278575"
+          },
+          {
+            "contract_address": "0x0df66b8644771fae9400d93e74a509a3546cd13e",
+            "token_name": "X",
+            "token_symbol": "X",
+            "token_decimal": "18",
+            "last_transaction": "1690218335"
+          },
+          {
+            "contract_address": "0x62cc0c943cba3b7f4c28684b537281d239b00619",
+            "token_name": "Wazowski",
+            "token_symbol": "WAZ",
+            "token_decimal": "18",
+            "last_transaction": "1690120031"
+          },
+          {
+            "contract_address": "0x71cb8757dd28fa31e8fac5b7dc8a498acfab7447",
+            "token_name": "Dio Umaru Chan",
+            "token_symbol": "UMARU",
+            "token_decimal": "18",
+            "last_transaction": "1689615107"
+          },
+          {
+            "contract_address": "0xf0b6e7b3c87535aa85bf9fc6cc759331d3c99b99",
+            "token_name": "RoflRaccoon",
+            "token_symbol": "ROFL",
+            "token_decimal": "18",
+            "last_transaction": "1687097435"
+          },
+          {
+            "contract_address": "0xb8f54e298fddb62a1c451867d20afbe4c3f8947b",
+            "token_name": "Kekstein",
+            "token_symbol": "KEK",
+            "token_decimal": "18",
+            "last_transaction": "1687004987"
+          },
+          {
+            "contract_address": "0x07be107573a50a741231ff17e93db323fd89ddfb",
+            "token_name": "Autism",
+            "token_symbol": "AUT",
+            "token_decimal": "18",
+            "last_transaction": "1683857567"
+          },
+          {
+            "contract_address": "0xf1592bc5f53287785e412bf14b545243d361410f",
+            "token_name": "The Coin",
+            "token_symbol": "THE",
+            "token_decimal": "18",
+            "last_transaction": "1683844535"
+          },
+          {
+            "contract_address": "0xb905d4d1afb428d5cdecffe16174377787c4ed19",
+            "token_name": "GucciBucketHat",
+            "token_symbol": "GBH",
+            "token_decimal": "18",
+            "last_transaction": "1683753755"
+          },
+          {
+            "contract_address": "0xf9453d15f9be8d206043985ab0d5d40aefbc8b49",
+            "token_name": "bitgod",
+            "token_symbol": "bg",
+            "token_decimal": "18",
+            "last_transaction": "1683697895"
+          },
+          {
+            "contract_address": "0x637529a30bde4651d4304c86105a821c19b30a1f",
+            "token_name": "Remilio World Order",
+            "token_symbol": "RWO",
+            "token_decimal": "18",
+            "last_transaction": "1683685607"
+          },
+          {
+            "contract_address": "0x0016212ef06e8f3b64a5fc66d0cb0fd9dd05fd91",
+            "token_name": "Gucci",
+            "token_symbol": "GUCCI",
+            "token_decimal": "18",
+            "last_transaction": "1683615395"
+          },
+          {
+            "contract_address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+            "token_name": "LooksRare Token",
+            "token_symbol": "LOOKS",
+            "token_decimal": "18",
+            "last_transaction": "1683128531"
+          },
+          {
+            "contract_address": "0xd88e87cd53d5b3c88c07bdb4715a39b75d6e7870",
+            "token_name": "$ SolFi.Vision",
+            "token_symbol": "SolFi.Vision",
+            "token_decimal": "0",
+            "last_transaction": "1658484906"
+          },
+          {
+            "contract_address": "0x516d813bc49b0eb556f9d09549f98443acdd7d8f",
+            "token_name": "OKPC GOLD",
+            "token_symbol": "OKGLD",
+            "token_decimal": "18",
+            "last_transaction": "1658024498"
+          },
+          {
+            "contract_address": "0xa5d251f094763fbec02c77a512dd6c43cc0c149b",
+            "token_name": "Webb-DAO.io",
+            "token_symbol": "Webb-DAO.io",
+            "token_decimal": "18",
+            "last_transaction": "1649239201"
+          },
+          {
+            "contract_address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+            "token_name": "ApeCoin",
+            "token_symbol": "APE",
+            "token_decimal": "18",
+            "last_transaction": "1648226446"
+          },
+          {
+            "contract_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "token_name": "Wrapped Ether",
+            "token_symbol": "WETH",
+            "token_decimal": "18",
+            "last_transaction": "1647658863"
+          },
+          {
+            "contract_address": "0x6bba316c48b49bd1eac44573c5c871ff02958469",
+            "token_name": "Gas DAO",
+            "token_symbol": "GAS",
+            "token_decimal": "18",
+            "last_transaction": "1640789666"
+          },
+          {
+            "contract_address": "0x3b484b82567a09e2588a13d54d032153f0c0aee0",
+            "token_name": "SOS",
+            "token_symbol": "SOS",
+            "token_decimal": "18",
+            "last_transaction": "1640392238"
+          },
+          {
+            "contract_address": "0xaac41ec512808d64625576eddd580e7ea40ef8b2",
+            "token_name": "gameswap.org",
+            "token_symbol": "GSWAP",
+            "token_decimal": "18",
+            "last_transaction": "1640093762"
+          },
+          {
+            "contract_address": "0xed0439eacf4c4965ae4613d77a5c2efe10e5f183",
+            "token_name": "shroom.finance",
+            "token_symbol": "SHROOM",
+            "token_decimal": "18",
+            "last_transaction": "1640093732"
+          },
+          {
+            "contract_address": "0xbc7250c8c3eca1dfc1728620af835fca489bfdf3",
+            "token_name": "GM",
+            "token_symbol": "GM",
+            "token_decimal": "9",
+            "last_transaction": "1636550138"
+          },
+          {
+            "contract_address": "0x793786e2dd4cc492ed366a94b88a3ff9ba5e7546",
+            "token_name": "AXIA TOKEN (axiaprotocol.io)",
+            "token_symbol": "AXIAv3",
+            "token_decimal": "18",
+            "last_transaction": "1632575742"
+          },
+          {
+            "contract_address": "0xb97faf860045483e0c7f08c56acb31333084a988",
+            "token_name": "Vanilla Network",
+            "token_symbol": "VNLA",
+            "token_decimal": "18",
+            "last_transaction": "1628853724"
+          },
+          {
+            "contract_address": "0x765baefcb5418fa9f7dddacb1ccc07bd0e890e4e",
+            "token_name": "Meteorite.network",
+            "token_symbol": "Meteor",
+            "token_decimal": "9",
+            "last_transaction": "1622521427"
+          },
+          {
+            "contract_address": "0xca3fe04c7ee111f0bbb02c328c699226acf9fd33",
+            "token_name": "seen.haus",
+            "token_symbol": "SEEN",
+            "token_decimal": "18",
+            "last_transaction": "1620575970"
+          },
+          {
+            "contract_address": "0x38747baf050d3c22315a761585868dba16abfd89",
+            "token_name": "SeenHaus Governance",
+            "token_symbol": "xSEEN",
+            "token_decimal": "18",
+            "last_transaction": "1620575502"
+          },
+          {
+            "contract_address": "0x7bce667ef12023dc5f8577d015a2f09d99a5ef58",
+            "token_name": "Block Duelers",
+            "token_symbol": "BDT",
+            "token_decimal": "18",
+            "last_transaction": "1618499664"
+          },
+          {
+            "contract_address": "0x83f873388cd14b83a9f47fabde3c9850b5c74548",
+            "token_name": "ZeroUtility",
+            "token_symbol": "ZUT",
+            "token_decimal": "18",
+            "last_transaction": "1616728474"
+          },
+          {
+            "contract_address": "0x202f1877e1db1120ca3e9a98c5d505e7f035c249",
+            "token_name": "Zeus",
+            "token_symbol": "ZUZ",
+            "token_decimal": "18",
+            "last_transaction": "1615866978"
+          },
+          {
+            "contract_address": "0xa0bed124a09ac2bd941b10349d8d224fe3c955eb",
+            "token_name": "DePay",
+            "token_symbol": "DEPAY",
+            "token_decimal": "18",
+            "last_transaction": "1615739800"
+          },
+          {
+            "contract_address": "0xbae5f2d8a1299e5c4963eaff3312399253f27ccb",
+            "token_name": "SOAR.FI",
+            "token_symbol": "SOAR",
+            "token_decimal": "9",
+            "last_transaction": "1615406077"
+          },
+          {
+            "contract_address": "0x3fa807b6f8d4c407e6e605368f4372d14658b38c",
+            "token_name": "Rise Protocol",
+            "token_symbol": "RISE",
+            "token_decimal": "9",
+            "last_transaction": "1615405960"
+          },
+          {
+            "contract_address": "0xe79590c1d8cbf6f3217b734dae7abd1b06b68d48",
+            "token_name": "Balancer Pool Token",
+            "token_symbol": "BPT",
+            "token_decimal": "18",
+            "last_transaction": "1615077672"
+          },
+          {
+            "contract_address": "0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7",
+            "token_name": "Membrana",
+            "token_symbol": "MBN",
+            "token_decimal": "18",
+            "last_transaction": "1614697843"
+          },
+          {
+            "contract_address": "0x111111111117dc0aa78b770fa6a738034120c302",
+            "token_name": "1INCH Token",
+            "token_symbol": "1INCH",
+            "token_decimal": "18",
+            "last_transaction": "1613332228"
+          },
+          {
+            "contract_address": "0xec681f28f4561c2a9534799aa38e0d36a83cf478",
+            "token_name": "YVS.Finance",
+            "token_symbol": "YVS",
+            "token_decimal": "18",
+            "last_transaction": "1611873211"
+          },
+          {
+            "contract_address": "0x831091da075665168e01898c6dac004a867f1e1b",
+            "token_name": "Gains V2",
+            "token_symbol": "GFARM2",
+            "token_decimal": "18",
+            "last_transaction": "1611096023"
+          },
+          {
+            "contract_address": "0x3f759c3f4cdba32e69ddf607e0cdcc2547061b97",
+            "token_name": "Uniswap V2",
+            "token_symbol": "UNI-V2",
+            "token_decimal": "18",
+            "last_transaction": "1611095959"
+          },
+          {
+            "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "token_name": "Tether USD",
+            "token_symbol": "USDT",
+            "token_decimal": "6",
+            "last_transaction": "1609687451"
+          },
+          {
+            "contract_address": "0x544288176bb6d7d198302a2d18fad38442e69b25",
+            "token_name": "Gains",
+            "token_symbol": "GFARM",
+            "token_decimal": "18",
+            "last_transaction": "1609518128"
+          },
+          {
+            "contract_address": "0x708da4bc0b6c1e3ca4b1f7ba8effb826ead8e18f",
+            "token_name": "Uniswap V2",
+            "token_symbol": "UNI-V2",
+            "token_decimal": "18",
+            "last_transaction": "1609426251"
+          },
+          {
+            "contract_address": "0x0829d2d5cc09d3d341e813c821b0cfae272d9fb2",
+            "token_name": "Social Rocket",
+            "token_symbol": "ROCKS",
+            "token_decimal": "18",
+            "last_transaction": "1609366683"
+          },
+          {
+            "contract_address": "0x0e29e5abbb5fd88e28b2d355774e73bd47de3bcd",
+            "token_name": "Hakka Finance",
+            "token_symbol": "HAKKA",
+            "token_decimal": "18",
+            "last_transaction": "1608652004"
+          }
+        ],
+        "quicknode_data": {
+          "address": "0x7a29aE65Bf25Dfb6e554BF0468a6c23ed99a8DC2",
+          "is_contract": false,
+          "address_type": "Externally Owned Account (EOA)",
+          "eth_balance": 0.1800553115165576,
+          "transaction_count": 407,
+          "analysis_timestamp": "2025-09-10T00:53:48.901091"
+        }
+      },
+      "contract_interactions_sample": []
+    }
+  },
+  "0x3feC8fd95b122887551c19c73F6b2bbf445B8C87": {
+    "wallet_address": "0x3feC8fd95b122887551c19c73F6b2bbf445B8C87",
+    "analysis_timestamp": "2025-09-10T00:54:03.138186",
+    "analysis_duration_seconds": 9.2,
+    "risk_score": 75.25,
+    "risk_level": "HIGH",
+    "risk_description": "High-risk wallet requiring significant caution",
+    "component_scores": {
+      "transaction_patterns": 73.5,
+      "protocol_interactions": 100.0,
+      "asset_concentration": 51.0,
+      "behavioral_patterns": 64.5
+    },
+    "component_weights": {
+      "transaction_patterns": 0.25,
+      "protocol_interactions": 0.3,
+      "asset_concentration": 0.2,
+      "activity_frequency": 0.15,
+      "failure_rate": 0.1
+    },
+    "risk_factors": [
+      "High success rate: 98.5%",
+      "Very low activity: 0.049 tx/day",
+      "No recent activity (30 days)",
+      "High-risk protocols: 1/1",
+      "Low diversification: 0 categories",
+      "Low TVL protocols: $0.0M",
+      "Protocol concentration risk",
+      "Very high-risk protocols: 1",
+      "High diversification: 22 tokens",
+      "Stablecoin exposure: 3 tokens",
+      "Heavy fund outflow pattern",
+      "Established wallet (>2 years)"
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f HIGH RISK: Significant caution required before any interactions",
+      "\ud83d\udcca Transaction Patterns: Review transaction success rates and activity patterns",
+      "\ud83c\udfe6 Protocol Risk: Wallet interacts with high-risk DeFi protocols",
+      "\ud83d\udca1 Suggestion: Research protocol security audits and TVL stability",
+      "\ud83d\udcb5 Stablecoin Holdings: Good risk mitigation through stable assets",
+      "\ud83d\udcc8 Portfolio Management: Continue maintaining diversified holdings",
+      "\u23f0 Activity Monitoring: Regular activity helps establish trust patterns"
+    ],
+    "risk_distribution": {
+      "high": [
+        "transaction",
+        "protocol"
+      ],
+      "medium": [
+        "concentration",
+        "behavioral"
+      ],
+      "low": []
+    },
+    "scoring_methods": {
+      "rule_based": {
+        "overall_score": 68.75,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 75.0,
+          "protocol_interactions": 100,
+          "asset_concentration": 25.0,
+          "behavioral_patterns": 60.0
+        }
+      },
+      "llm_based": {
+        "overall_score": 85,
+        "risk_level": "VERY_HIGH",
+        "components": {
+          "transaction_patterns": 70,
+          "protocol_interactions": 100,
+          "asset_concentration": 90,
+          "behavioral_patterns": 75
+        },
+        "reasoning": "This wallet exhibits a high overall risk score primarily due to its interaction with a single, extremely high-risk protocol (score of 100), significant asset concentration in potentially volatile or low-liquidity meme tokens, and concerning transaction patterns.  While the success rate is high (98.5%), the substantial net outflow ($11.33 out vs $2.56 in) suggests potential exploitation or rug-pull involvement. The frequent contract interactions, especially with multiple unknown or suspicious-looking addresses, further amplify the risk. The presence of several tokens with names suggesting meme coins or low-quality projects ('MAOMAO', 'Happy Trump Birthday', 'BRK690k', 'FUG') indicates a high level of speculation and potential for significant loss. The low ETH balance also suggests limited resilience to market fluctuations.  The high number of transactions (65) in itself isn't inherently risky, but combined with other factors, it contributes to the overall high-risk profile.",
+        "key_insights": [
+          "Extremely high protocol risk (100): Immediate action is needed to understand and mitigate this risk.  The wallet should be disassociated from this protocol immediately.",
+          "High asset concentration in potentially volatile meme tokens: Diversification is crucial to reduce the impact of potential rug pulls or market crashes.",
+          "Net outflow of funds: This suggests a potential loss of funds, possibly due to exploitation or participation in a risky investment scheme.  Further investigation is required to determine the nature of these transactions."
+        ]
+      },
+      "hybrid": {
+        "overall_score": 75.25,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 73.5,
+          "protocol_interactions": 100.0,
+          "asset_concentration": 51.0,
+          "behavioral_patterns": 64.5
+        },
+        "methodology": "60% rule-based + 40% Gemini"
+      }
+    },
+    "transaction_summary": {
+      "total_transactions": 65,
+      "success_rate": 98.46153846153847,
+      "recent_activity": 0,
+      "contract_interactions": 42,
+      "unique_addresses": 32,
+      "high_value_transactions": 5,
+      "activity_frequency": 0.04924635754305959,
+      "avg_gas_price": 33.52236600509231,
+      "total_fees_paid": 0.17284269323321172
+    },
+    "protocol_summary": {
+      "protocols_identified": 1,
+      "protocols_interacted": 1,
+      "high_risk_protocols": 1,
+      "average_protocol_risk": 100,
+      "diversification_score": 0,
+      "total_tvl_exposure": 0,
+      "protocol_categories": [],
+      "risk_distribution": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 1
+      }
+    },
+    "asset_summary": {
+      "eth_balance": 0.15182017087703711,
+      "token_types": 22,
+      "is_contract": false,
+      "address_type": "Externally Owned Account (EOA)",
+      "quicknode_tx_count": 51
+    },
+    "detailed_analysis": {
+      "transaction_risk_details": {
+        "risk_score": 75.0,
+        "reasons": [
+          "High success rate: 98.5%",
+          "Very low activity: 0.049 tx/day",
+          "No recent activity (30 days)"
+        ],
+        "metrics": {
+          "success_rate": 0.9846153846153847,
+          "activity_frequency": 0.04924635754305959,
+          "high_value_ratio": 0.07692307692307693,
+          "contract_interaction_ratio": 0.6461538461538462,
+          "recent_activity": 0
+        }
+      },
+      "protocol_risk_details": {
+        "risk_score": 100,
+        "reasons": [
+          "High-risk protocols: 1/1",
+          "Low diversification: 0 categories",
+          "Low TVL protocols: $0.0M",
+          "Protocol concentration risk",
+          "Very high-risk protocols: 1"
+        ],
+        "metrics": {
+          "average_protocol_risk": 85.0,
+          "high_risk_protocol_ratio": 1.0,
+          "diversification_score": 0,
+          "total_tvl": 0,
+          "risk_distribution": {
+            "low": 0,
+            "medium": 0,
+            "high": 0,
+            "very_high": 1
+          }
+        }
+      },
+      "asset_risk_details": {
+        "risk_score": 25.0,
+        "reasons": [
+          "High diversification: 22 tokens",
+          "Stablecoin exposure: 3 tokens"
+        ],
+        "metrics": {
+          "eth_balance": 0.15182017087703711,
+          "token_count": 22,
+          "asset_diversification": "high"
+        }
+      },
+      "behavioral_risk_details": {
+        "risk_score": 60.0,
+        "reasons": [
+          "Heavy fund outflow pattern",
+          "Established wallet (>2 years)"
+        ],
+        "metrics": {
+          "avg_gas_price": 33.52236600509231,
+          "value_flow_ratio": 4.428065046111533,
+          "largest_transaction": 3.2,
+          "interaction_diversity": 0.47692307692307695,
+          "wallet_age_days": 1319.8945717592592
+        }
+      }
+    },
+    "raw_data": {
+      "transaction_patterns": {
+        "total_transactions": 65,
+        "successful_transactions": 64,
+        "failed_transactions": 1,
+        "unique_addresses": 32,
+        "contract_interactions": 42,
+        "high_value_transactions": 5,
+        "recent_activity": 0,
+        "gas_analysis": {
+          "total_gas_used": 5881921,
+          "avg_gas_price": 33.52236600509231,
+          "total_fees": 0.17284269323321172
+        },
+        "time_analysis": {
+          "first_transaction": 1635832332,
+          "last_transaction": 1749871223,
+          "activity_frequency": 0.04924635754305959
+        },
+        "value_analysis": {
+          "total_value_in": 2.557916069035576,
+          "total_value_out": 11.32661873618345,
+          "largest_transaction": 3.2,
+          "avg_transaction_value": 0.21360822777260033
+        },
+        "address_interactions": {
+          "most_frequent_addresses": {
+            "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad": 5,
+            "0x0000000000000068f116a894984e2db1123eb395": 4,
+            "0xed91d75fbfc0ed7e96c452753eb8cd32d752f250": 4,
+            "0xa6b816010ab51e088c4f19c71aba87e54b422e14": 4,
+            "0x00192fb10df37c9fb26829eb2cc623cd1bf599e8": 4,
+            "0xc597f8b7cf013f55dd45a9736e1ca6d3813742e3": 3,
+            "0x150f94b44927f078737562f0fcf3c95c01cc2376": 3,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 3,
+            "0x49048044d57e1c92a77f79988d21fa8faf74e97e": 3,
+            "0x881d40237659c251811cec9c364ef91dc08d300c": 3
+          },
+          "interaction_diversity": 31
+        }
+      },
+      "protocol_analysis": {
+        "protocols": [
+          {
+            "name": "Unknown Protocol",
+            "risk_score": 85.0,
+            "tvl": 0,
+            "category": "Unknown",
+            "chains": []
+          }
+        ],
+        "average_risk": 100,
+        "raw_average_risk": 85.0,
+        "high_risk_protocols": 1,
+        "total_tvl_interacted": 0,
+        "diversification_score": 0,
+        "categories": [],
+        "total_protocols": 1,
+        "concentration_penalty": 15,
+        "risk_distribution": {
+          "low": 0,
+          "medium": 0,
+          "high": 0,
+          "very_high": 1
+        }
+      },
+      "balance_data": {
+        "eth_balance": 0.15182017087703711,
+        "tokens": [
+          {
+            "contract_address": "0x15abeb78d111020faa282052be399078008c83a2",
+            "token_name": "MAOMAO",
+            "token_symbol": "MAOMAO",
+            "token_decimal": "18",
+            "last_transaction": "1752150911"
+          },
+          {
+            "contract_address": "0x6426b6c2a9108fa815bccca3a3232301e1895742",
+            "token_name": "Happy Trump Birthday",
+            "token_symbol": "HTB",
+            "token_decimal": "18",
+            "last_transaction": "1749953903"
+          },
+          {
+            "contract_address": "0x2a82aa959f93a33ba1cee20dee63ac16d12373d9",
+            "token_name": "AgentNet",
+            "token_symbol": "AGT",
+            "token_decimal": "18",
+            "last_transaction": "1747921655"
+          },
+          {
+            "contract_address": "0xa8f41d54fd002aa0d027d010cdc3fcf3fd8f40c7",
+            "token_name": "\u0415\u0422\u041d",
+            "token_symbol": "\u0415\u0422\u041d...",
+            "token_decimal": "18",
+            "last_transaction": "1743718463"
+          },
+          {
+            "contract_address": "0x364c65347bdd77e6196fad96d42dbbd6d55cf719",
+            "token_name": "BRK690k",
+            "token_symbol": "BRK",
+            "token_decimal": "18",
+            "last_transaction": "1740205943"
+          },
+          {
+            "contract_address": "0x5098ad0ffb45fbc6bde74f20c789bf33ef300b8e",
+            "token_name": "\u0415\u0422\u041d",
+            "token_symbol": "\u0415\u0422\u041d...",
+            "token_decimal": "18",
+            "last_transaction": "1737855191"
+          },
+          {
+            "contract_address": "0xc27bfee8e6a2937ef138f1170cdc1c337e2d7453",
+            "token_name": "E\u0422H..",
+            "token_symbol": "E\u0422H",
+            "token_decimal": "18",
+            "last_transaction": "1737851867"
+          },
+          {
+            "contract_address": "0x79ce89cecd0701dcc7cc75f642e0e8b6fca21c19",
+            "token_name": "Green Apple",
+            "token_symbol": "GA",
+            "token_decimal": "18",
+            "last_transaction": "1735381355"
+          },
+          {
+            "contract_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "token_name": "Wrapped Ether",
+            "token_symbol": "WETH",
+            "token_decimal": "18",
+            "last_transaction": "1731615707"
+          },
+          {
+            "contract_address": "0xc4b9e3aa1071741220a548832c887b39cb621970",
+            "token_name": "FUG",
+            "token_symbol": "FUG",
+            "token_decimal": "18",
+            "last_transaction": "1731441071"
+          },
+          {
+            "contract_address": "0x533ebcc7f6912ccf31f266c78db2fcc17007c3cc",
+            "token_name": "Team Murad",
+            "token_symbol": "TEAMMURAD",
+            "token_decimal": "18",
+            "last_transaction": "1728696395"
+          },
+          {
+            "contract_address": "0x81841bc0cf65834ce64ce987e8b094781222b595",
+            "token_name": "TensorNode",
+            "token_symbol": "TNO",
+            "token_decimal": "9",
+            "last_transaction": "1710123731"
+          },
+          {
+            "contract_address": "0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+            "token_name": "SPX6900",
+            "token_symbol": "SPX",
+            "token_decimal": "8",
+            "last_transaction": "1709099231"
+          },
+          {
+            "contract_address": "0x4123a68092fcdc2369f2025a8896646c4a476216",
+            "token_name": "# enqai-airdrop.com",
+            "token_symbol": "Claim $ENQAI airdrop at https://enqai-airdrop.com",
+            "token_decimal": "0",
+            "last_transaction": "1709096939"
+          },
+          {
+            "contract_address": "0x44971abf0251958492fee97da3e5c5ada88b9185",
+            "token_name": "basedAI",
+            "token_symbol": "basedAI",
+            "token_decimal": "18",
+            "last_transaction": "1707279407"
+          },
+          {
+            "contract_address": "0x710287d1d39dcf62094a83ebb3e736e79400068a",
+            "token_name": "enqAI",
+            "token_symbol": "ENQAI",
+            "token_decimal": "18",
+            "last_transaction": "1707139931"
+          },
+          {
+            "contract_address": "0x966d4e4b849da4ad5a0c08564d5e62af421924c9",
+            "token_name": "# StakeEther.net",
+            "token_symbol": "Visit StakeEther.net claim rewards",
+            "token_decimal": "6",
+            "last_transaction": "1706657987"
+          },
+          {
+            "contract_address": "0xa9e8acf069c58aec8825542845fd754e41a9489a",
+            "token_name": "pepeCoin",
+            "token_symbol": "pepecoin",
+            "token_decimal": "18",
+            "last_transaction": "1705720211"
+          },
+          {
+            "contract_address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+            "token_name": "Threshold Network Token",
+            "token_symbol": "T",
+            "token_decimal": "18",
+            "last_transaction": "1701922811"
+          },
+          {
+            "contract_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "token_name": "USDC",
+            "token_symbol": "USDC",
+            "token_decimal": "6",
+            "last_transaction": "1701782651"
+          },
+          {
+            "contract_address": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e",
+            "token_name": "AllianceBlock Nexera Token",
+            "token_symbol": "NXRA",
+            "token_decimal": "18",
+            "last_transaction": "1701749819"
+          },
+          {
+            "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "token_name": "Tether USD",
+            "token_symbol": "USDT",
+            "token_decimal": "6",
+            "last_transaction": "1692624803"
+          }
+        ],
+        "quicknode_data": {
+          "address": "0x3feC8fd95b122887551c19c73F6b2bbf445B8C87",
+          "is_contract": false,
+          "address_type": "Externally Owned Account (EOA)",
+          "eth_balance": 0.15182017087703711,
+          "transaction_count": 51,
+          "analysis_timestamp": "2025-09-10T00:53:56.904336"
+        }
+      },
+      "contract_interactions_sample": [
+        {
+          "hash": "0x489238fdbc575ebe8fc8ec60bbfc54c755828962783ddf9d676d20be17ec6067",
+          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "function_name": "withdraw(uint256 amount)",
+          "method_id": "0x2e1a7d4d",
+          "input_data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000fc52bac4c932800",
+          "value": 0.0,
+          "gas_used": 30416,
+          "gas_price": 29681196740,
+          "timestamp": 1731615767,
+          "status": "1",
+          "block_number": 21188291
+        },
+        {
+          "hash": "0x64288ccfb45efbfa39279f7e797d4480fc2fad153d705424f279e3d1bcb1be24",
+          "to": "0x0000000000000068f116a894984e2db1123eb395",
+          "function_name": "matchAdvancedOrders(tuple[] ,tuple[] ,tuple[] ,address recipient)",
+          "method_id": "0xf2d12b12",
+          "input_data": "0xf2d12b1200000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000a200000000000000000000000000000000000000000000000000000000000000a400000000000000000000000003fec8fd95b122887551c19c73f6b2bbf445b8c870000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000005a000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000046000000000000000000000000000000000000000000000000000000000000004c0000000000000000000000000aa4b115e1ecb69d10e4a2a7e8860a4810f02a18a000000000000000000000000000056f7000000ece9003ca63978907a00ffd1000000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000022000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000067365af200000000000000000000000000000000000000000000000000000000673661fa00000000000000000000000000000000000000000000000000000000000000000000000000000000000000ac34023fd90fbab98b051509ec23e02a07a78f82140000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007e1f0fd986c000000000000000000000000000000000000000000000000000007e1f0fd986c00000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003000000000000000000000000ed91d75fbfc0ed7e96c452753eb8cd32d752f250000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000aa4b115e1ecb69d10e4a2a7e8860a4810f02a18a0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003272d323cf8000000000000000000000000000000000000000000000000000003272d323cf8000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000000000000000040b4f6fffa6ee78e2ed59fb3f9a98b4299f8885a7c72f8b1d2d3add8761a42e978e54607f06ea7246ff969c43faf277fbd425cb6717d6b98b72a10e831d1d663ba000000000000000000000000000000000000000000000000000000000000007e003fec8fd95b122887551c19c73f6b2bbf445b8c870000000067365cdbf38b5ff867e5208afa007e1ae56ededb94ee7919dcc3c0779b652a8708568a4215fa2858ca1f3e9e9b5ad1b7e15343ad46a0f2c836b1aa459e5ad1a56a9013ce000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000003a000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000003fec8fd95b122887551c19c73f6b2bbf445b8c8700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000067365af200000000000000000000000000000000000000000000000000000000673661fa0000000000000000000000000000000000000000000000000000000000000000360c6ebe000000000000000000000000000000000000000061de0450a3f4fd510000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000003000000000000000000000000ed91d75fbfc0ed7e96c452753eb8cd32d752f25000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007af7e2a749c800000000000000000000000000000000000000000000000000007af7e2a749c8000000000000000000000000003fec8fd95b122887551c19c73f6b2bbf445b8c870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000000260000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000360c6ebe",
+          "value": 0.0,
+          "gas_used": 231224,
+          "gas_price": 27068517632,
+          "timestamp": 1731615707,
+          "status": "1",
+          "block_number": 21188286
+        },
+        {
+          "hash": "0x709bbe927660a97fcfc8cfa23d48481f1f6a24da01cc7737a2b5877b45c069dd",
+          "to": "0x0000000000000068f116a894984e2db1123eb395",
+          "function_name": "JunionWasHereXD_ufpfzhujazyn()",
+          "method_id": "0xe7acab24",
+          "input_data": "0xe7acab24000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000005e00000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000046000000000000000000000000000000000000000000000000000000000000004c0000000000000000000000000f93f61362054d986b683a8c30f7a941a85b516a6000000000000000000000000000056f7000000ece9003ca63978907a00ffd100000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000002200000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000006734f1d6000000000000000000000000000000000000000000000000000000006738e6400000000000000000000000000000000000000000000000000000000000000000360c6ebe0000000000000000000000000000000000000000eefae8b6a47d86e50000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a94d74f430000000000000000000000000000000000000000000000000000006a94d74f43000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003000000000000000000000000ed91d75fbfc0ed7e96c452753eb8cd32d752f250000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f93f61362054d986b683a8c30f7a941a85b516a60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002aa1efb94e0000000000000000000000000000000000000000000000000000002aa1efb94e0000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000000000000000040b1603c76411c962c5e7a7444873f067723f0467e8f2a31b6765ba09b17cc7f08b43286dddb7949cb06e1d2e5f673e14f4782ad1b06f6ddd1ed020996f51c3c02000000000000000000000000000000000000000000000000000000000000007e003fec8fd95b122887551c19c73f6b2bbf445b8c870000000067365c596332a282ee750393abb2339007e3b8d1affebca906002e218f5bb3fd41b7627ae4efe3b81bab0db1983cf8d06c4333afffdff59131d110d294ca913670f979810000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000360c6ebe",
+          "value": 0.0,
+          "gas_used": 166127,
+          "gas_price": 27200409480,
+          "timestamp": 1731615623,
+          "status": "1",
+          "block_number": 21188279
+        },
+        {
+          "hash": "0xae0904c33b7a4c442a0424c71e5d088f79c55abe0596105bcda61644321aead2",
+          "to": "0xed91d75fbfc0ed7e96c452753eb8cd32d752f250",
+          "function_name": "setApprovalForAll(address operator, bool authorized)",
+          "method_id": "0xa22cb465",
+          "input_data": "0xa22cb4650000000000000000000000001e0049783f008a0085193e00003d00cd54003c710000000000000000000000000000000000000000000000000000000000000001",
+          "value": 0.0,
+          "gas_used": 26661,
+          "gas_price": 28894170434,
+          "timestamp": 1731615575,
+          "status": "1",
+          "block_number": 21188275
+        },
+        {
+          "hash": "0x5d83bec434eb1ccfed1bf5317fe580d57c39b4c0e5570f1937952276baedeca6",
+          "to": "0xed91d75fbfc0ed7e96c452753eb8cd32d752f250",
+          "function_name": "setApprovalForAll(address operator, bool authorized)",
+          "method_id": "0xa22cb465",
+          "input_data": "0xa22cb4650000000000000000000000001e0049783f008a0085193e00003d00cd54003c710000000000000000000000000000000000000000000000000000000000000001",
+          "value": 0.0,
+          "gas_used": 46561,
+          "gas_price": 29837459989,
+          "timestamp": 1731615551,
+          "status": "1",
+          "block_number": 21188273
+        }
+      ]
+    }
+  },
+  "0x38e247893BbC8517a317c54Ed34F9C62cb5F26c0": {
+    "wallet_address": "0x38e247893BbC8517a317c54Ed34F9C62cb5F26c0",
+    "analysis_timestamp": "2025-09-10T00:54:19.954062",
+    "analysis_duration_seconds": 15.81,
+    "risk_score": 78.5,
+    "risk_level": "HIGH",
+    "risk_description": "High-risk wallet requiring significant caution",
+    "component_scores": {
+      "transaction_patterns": 62.5,
+      "protocol_interactions": 100.0,
+      "asset_concentration": 43.0,
+      "behavioral_patterns": 79.5
+    },
+    "component_weights": {
+      "transaction_patterns": 0.25,
+      "protocol_interactions": 0.3,
+      "asset_concentration": 0.2,
+      "activity_frequency": 0.15,
+      "failure_rate": 0.1
+    },
+    "risk_factors": [
+      "High success rate: 100.0%",
+      "Very high DeFi usage: 91.9%",
+      "High-risk protocols: 1/1",
+      "Low diversification: 0 categories",
+      "Low TVL protocols: $0.0M",
+      "Protocol concentration risk",
+      "Very high-risk protocols: 1",
+      "High diversification: 41 tokens",
+      "Stablecoin exposure: 6 tokens",
+      "Efficient gas usage: 4.7 Gwei",
+      "Heavy fund outflow pattern",
+      "Large transaction: 44.00 ETH",
+      "Somewhat concentrated interactions"
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f HIGH RISK: Significant caution required before any interactions",
+      "\ud83c\udfe6 Protocol Risk: Wallet interacts with high-risk DeFi protocols",
+      "\ud83d\udca1 Suggestion: Research protocol security audits and TVL stability",
+      "\ud83c\udfad Behavioral Risk: Unusual transaction patterns detected",
+      "\ud83d\udd0d Recommendation: Verify wallet ownership and transaction authenticity",
+      "\u26fd Gas Optimization: Consider using lower gas prices during off-peak hours",
+      "\ud83d\udc8e Large Transactions: Verify transaction authenticity for high-value transfers",
+      "\ud83d\udcb5 Stablecoin Holdings: Good risk mitigation through stable assets",
+      "\ud83d\udcc8 Portfolio Management: Continue maintaining diversified holdings"
+    ],
+    "risk_distribution": {
+      "high": [
+        "protocol",
+        "behavioral"
+      ],
+      "medium": [
+        "transaction",
+        "concentration"
+      ],
+      "low": []
+    },
+    "scoring_methods": {
+      "rule_based": {
+        "overall_score": 67.5,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 55.0,
+          "protocol_interactions": 100,
+          "asset_concentration": 25.0,
+          "behavioral_patterns": 75.0
+        }
+      },
+      "llm_based": {
+        "overall_score": 95,
+        "risk_level": "VERY_HIGH",
+        "components": {
+          "transaction_patterns": 80,
+          "protocol_interactions": 100,
+          "asset_concentration": 70,
+          "behavioral_patterns": 90
+        },
+        "reasoning": "This wallet exhibits extremely high risk due to several factors.  The overwhelmingly high number of contract interactions (137 out of 149 transactions) points towards heavy involvement in DeFi activities, often associated with higher risk. The significant net outflow of funds ($114.80 out vs $30.73 in) suggests potential rug-pull vulnerability or participation in high-risk yield farming strategies. The 100% success rate, while seemingly positive, could be misleading; it might indicate a lack of diversification or exposure to only a few, potentially risky, protocols. The concentration of interactions with specific contracts (31 and 30 interactions with two addresses) raises concerns about over-reliance on potentially vulnerable protocols.  The high average protocol risk score of 100 further exacerbates this concern.  The token holdings, while diversified in terms of names, are heavily concentrated in the DeFi and meme coin space, which are known for high volatility and susceptibility to scams. The low ETH balance also suggests a reliance on potentially less secure assets. The behavioral patterns indicate a high-risk profile due to the significant net outflow and the concentration of interactions with a small number of contracts.",
+        "key_insights": [
+          "Extremely high contract interaction frequency indicates heavy DeFi involvement, increasing exposure to smart contract risks and potential exploits.",
+          "Significant net outflow of funds suggests participation in high-risk activities or potential exposure to rug pulls.",
+          "High concentration of interactions with a few specific contracts and reliance on a single protocol (with a 100 risk score) indicates a lack of diversification and increased vulnerability."
+        ]
+      },
+      "hybrid": {
+        "overall_score": 78.5,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 62.5,
+          "protocol_interactions": 100.0,
+          "asset_concentration": 43.0,
+          "behavioral_patterns": 79.5
+        },
+        "methodology": "60% rule-based + 40% Gemini"
+      }
+    },
+    "transaction_summary": {
+      "total_transactions": 149,
+      "success_rate": 100.0,
+      "recent_activity": 16,
+      "contract_interactions": 137,
+      "unique_addresses": 38,
+      "high_value_transactions": 8,
+      "activity_frequency": 0.28419928282597084,
+      "avg_gas_price": 4.723161046020134,
+      "total_fees_paid": 0.12124605934715739
+    },
+    "protocol_summary": {
+      "protocols_identified": 1,
+      "protocols_interacted": 1,
+      "high_risk_protocols": 1,
+      "average_protocol_risk": 100,
+      "diversification_score": 0,
+      "total_tvl_exposure": 0,
+      "protocol_categories": [],
+      "risk_distribution": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 1
+      }
+    },
+    "asset_summary": {
+      "eth_balance": 0.04897185333511634,
+      "token_types": 41,
+      "is_contract": false,
+      "address_type": "Externally Owned Account (EOA)",
+      "quicknode_tx_count": 139
+    },
+    "detailed_analysis": {
+      "transaction_risk_details": {
+        "risk_score": 55.0,
+        "reasons": [
+          "High success rate: 100.0%",
+          "Very high DeFi usage: 91.9%"
+        ],
+        "metrics": {
+          "success_rate": 1.0,
+          "activity_frequency": 0.28419928282597084,
+          "high_value_ratio": 0.053691275167785234,
+          "contract_interaction_ratio": 0.9194630872483222,
+          "recent_activity": 16
+        }
+      },
+      "protocol_risk_details": {
+        "risk_score": 100,
+        "reasons": [
+          "High-risk protocols: 1/1",
+          "Low diversification: 0 categories",
+          "Low TVL protocols: $0.0M",
+          "Protocol concentration risk",
+          "Very high-risk protocols: 1"
+        ],
+        "metrics": {
+          "average_protocol_risk": 85.0,
+          "high_risk_protocol_ratio": 1.0,
+          "diversification_score": 0,
+          "total_tvl": 0,
+          "risk_distribution": {
+            "low": 0,
+            "medium": 0,
+            "high": 0,
+            "very_high": 1
+          }
+        }
+      },
+      "asset_risk_details": {
+        "risk_score": 25.0,
+        "reasons": [
+          "High diversification: 41 tokens",
+          "Stablecoin exposure: 6 tokens"
+        ],
+        "metrics": {
+          "eth_balance": 0.04897185333511634,
+          "token_count": 41,
+          "asset_diversification": "high"
+        }
+      },
+      "behavioral_risk_details": {
+        "risk_score": 75.0,
+        "reasons": [
+          "Efficient gas usage: 4.7 Gwei",
+          "Heavy fund outflow pattern",
+          "Large transaction: 44.00 ETH",
+          "Somewhat concentrated interactions"
+        ],
+        "metrics": {
+          "avg_gas_price": 4.723161046020134,
+          "value_flow_ratio": 3.7360748185765944,
+          "largest_transaction": 44.0,
+          "interaction_diversity": 0.2483221476510067,
+          "wallet_age_days": 524.28
+        }
+      }
+    },
+    "raw_data": {
+      "transaction_patterns": {
+        "total_transactions": 149,
+        "successful_transactions": 149,
+        "failed_transactions": 0,
+        "unique_addresses": 38,
+        "contract_interactions": 137,
+        "high_value_transactions": 8,
+        "recent_activity": 16,
+        "gas_analysis": {
+          "total_gas_used": 37429598,
+          "avg_gas_price": 4.723161046020134,
+          "total_fees": 0.12124605934715739
+        },
+        "time_analysis": {
+          "first_transaction": 1711919243,
+          "last_transaction": 1757217035,
+          "activity_frequency": 0.28419928282597084
+        },
+        "value_analysis": {
+          "total_value_in": 30.726132001818737,
+          "total_value_out": 114.79512804425543,
+          "largest_transaction": 44.0,
+          "avg_transaction_value": 0.9766527519870747
+        },
+        "address_interactions": {
+          "most_frequent_addresses": {
+            "0xadc0a53095a0af87f3aa29fe0715b5c28016364e": 31,
+            "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2": 30,
+            "0x4da27a545c0c5b758a6ba100e3a049001de870f5": 8,
+            "0xc18391f5987c9d798c20ef125358fa2a794cc8e0": 6,
+            "0xd01607c3c5ecaba394d8be377a08590149325722": 5,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 5,
+            "0x6b175474e89094c44da98b954eedeac495271d0f": 5,
+            "0x253553366da8546fc250f225fe3d25d0c782303b": 5,
+            "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": 4,
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 4
+          },
+          "interaction_diversity": 37
+        }
+      },
+      "protocol_analysis": {
+        "protocols": [
+          {
+            "name": "Unknown Protocol",
+            "risk_score": 85.0,
+            "tvl": 0,
+            "category": "Unknown",
+            "chains": []
+          }
+        ],
+        "average_risk": 100,
+        "raw_average_risk": 85.0,
+        "high_risk_protocols": 1,
+        "total_tvl_interacted": 0,
+        "diversification_score": 0,
+        "categories": [],
+        "total_protocols": 1,
+        "concentration_penalty": 15,
+        "risk_distribution": {
+          "low": 0,
+          "medium": 0,
+          "high": 0,
+          "very_high": 1
+        }
+      },
+      "balance_data": {
+        "eth_balance": 0.04897185333511634,
+        "tokens": [
+          {
+            "contract_address": "0x541b88aa9617d0bf064d3f2f2ba2726365870153",
+            "token_name": "Cheesy Gus",
+            "token_symbol": "GUS",
+            "token_decimal": "18",
+            "last_transaction": "1757223983"
+          },
+          {
+            "contract_address": "0x6114b3a7cc3e891e2f7ded71e98430a91700d7ea",
+            "token_name": "FOMO",
+            "token_symbol": "FOMO",
+            "token_decimal": "18",
+            "last_transaction": "1756959767"
+          },
+          {
+            "contract_address": "0xfa6d07fb903fe51f1a3a6357791f1de49deeb2e3",
+            "token_name": "INX",
+            "token_symbol": "INX",
+            "token_decimal": "18",
+            "last_transaction": "1756959455"
+          },
+          {
+            "contract_address": "0x5cfd2f9c803b363f240988fea1424e38d09ac155",
+            "token_name": "CAI",
+            "token_symbol": "CAI",
+            "token_decimal": "18",
+            "last_transaction": "1756958759"
+          },
+          {
+            "contract_address": "0xbb057b406adfbf0930d71f8bac0413132e30bbc3",
+            "token_name": "SBX",
+            "token_symbol": "SBX",
+            "token_decimal": "18",
+            "last_transaction": "1756952879"
+          },
+          {
+            "contract_address": "0xd83c7fdf9d76dec865a0501016439344b6a938f1",
+            "token_name": "PMAI",
+            "token_symbol": "PMAI",
+            "token_decimal": "18",
+            "last_transaction": "1756951571"
+          },
+          {
+            "contract_address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+            "token_name": "Aave Ethereum USDC",
+            "token_symbol": "aEthUSDC",
+            "token_decimal": "6",
+            "last_transaction": "1756938467"
+          },
+          {
+            "contract_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+            "token_name": "Uniswap",
+            "token_symbol": "UNI",
+            "token_decimal": "18",
+            "last_transaction": "1756937915"
+          },
+          {
+            "contract_address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+            "token_name": "Aave Token",
+            "token_symbol": "AAVE",
+            "token_decimal": "18",
+            "last_transaction": "1756917575"
+          },
+          {
+            "contract_address": "0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8",
+            "token_name": "Aave Ethereum WETH",
+            "token_symbol": "aEthWETH",
+            "token_decimal": "18",
+            "last_transaction": "1756917443"
+          },
+          {
+            "contract_address": "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44",
+            "token_name": "Wrapped TAO",
+            "token_symbol": "wTAO",
+            "token_decimal": "9",
+            "last_transaction": "1756917275"
+          },
+          {
+            "contract_address": "0x922d8563631b03c2c4cf817f4d18f6883aba0109",
+            "token_name": "Houdini Swap",
+            "token_symbol": "LOCK",
+            "token_decimal": "18",
+            "last_transaction": "1756916675"
+          },
+          {
+            "contract_address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+            "token_name": "Aave Ethereum USDT",
+            "token_symbol": "aEthUSDT",
+            "token_decimal": "6",
+            "last_transaction": "1756165487"
+          },
+          {
+            "contract_address": "0x4c6c5c7c00e2e26f91ada6e032f729899f796cca",
+            "token_name": "World Liberty Financial",
+            "token_symbol": "WLFI",
+            "token_decimal": "9",
+            "last_transaction": "1756028459"
+          },
+          {
+            "contract_address": "0x9e59a081320ddb046d74a106335ca6b84eadc067",
+            "token_name": "Biden Coin",
+            "token_symbol": "BIDEN",
+            "token_decimal": "18",
+            "last_transaction": "1755556151"
+          },
+          {
+            "contract_address": "0x0bbe2b5fa5490f01b4427109f0b5571822616a78",
+            "token_name": "Illusion of Life",
+            "token_symbol": "SPARK",
+            "token_decimal": "9",
+            "last_transaction": "1755173303"
+          },
+          {
+            "contract_address": "0xf6d2224916ddfbbab6e6bd0d1b7034f4ae0cab18",
+            "token_name": "Aave Ethereum UNI",
+            "token_symbol": "aEthUNI",
+            "token_decimal": "18",
+            "last_transaction": "1755056939"
+          },
+          {
+            "contract_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "token_name": "USDC",
+            "token_symbol": "USDC",
+            "token_decimal": "6",
+            "last_transaction": "1755043043"
+          },
+          {
+            "contract_address": "0xde56173463d6461001b0891bc90db224965f5762",
+            "token_name": "Magnus the Therapy Dog",
+            "token_symbol": "MAGNUS",
+            "token_decimal": "9",
+            "last_transaction": "1754659955"
+          },
+          {
+            "contract_address": "0x16b907b5d1208ae6086de983a5ef45e7890ef272",
+            "token_name": "Juniper Foxx",
+            "token_symbol": "JUNFOX",
+            "token_decimal": "9",
+            "last_transaction": "1754052863"
+          },
+          {
+            "contract_address": "0x4da27a545c0c5b758a6ba100e3a049001de870f5",
+            "token_name": "Staked Aave",
+            "token_symbol": "stkAAVE",
+            "token_decimal": "18",
+            "last_transaction": "1754023175"
+          },
+          {
+            "contract_address": "0xcd9594cd25ed2a166362b6f76c523da08c4ef2e5",
+            "token_name": "Esther the Wonder Pig",
+            "token_symbol": "ESTHER",
+            "token_decimal": "9",
+            "last_transaction": "1753533107"
+          },
+          {
+            "contract_address": "0xd10efaba11a51237fa120b15153dd432958bbde3",
+            "token_name": "Jiffpom",
+            "token_symbol": "JIFFPOM",
+            "token_decimal": "9",
+            "last_transaction": "1753093139"
+          },
+          {
+            "contract_address": "0x15abeb78d111020faa282052be399078008c83a2",
+            "token_name": "MAOMAO",
+            "token_symbol": "MAOMAO",
+            "token_decimal": "18",
+            "last_transaction": "1752238847"
+          },
+          {
+            "contract_address": "0x1f6deb07e1a19baff90ec4075447eef6eb96c0ba",
+            "token_name": "Baby Manyu",
+            "token_symbol": "BABYMANYU",
+            "token_decimal": "9",
+            "last_transaction": "1752234947"
+          },
+          {
+            "contract_address": "0x6426b6c2a9108fa815bccca3a3232301e1895742",
+            "token_name": "Happy Trump Birthday",
+            "token_symbol": "HTB",
+            "token_decimal": "18",
+            "last_transaction": "1749957311"
+          },
+          {
+            "contract_address": "0xddf8099ec3c2204611c2c7248e1ffafdd55a4bfd",
+            "token_name": "New Pope Coin",
+            "token_symbol": "POPE",
+            "token_decimal": "9",
+            "last_transaction": "1745688227"
+          },
+          {
+            "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "token_name": "Tether USD",
+            "token_symbol": "USDT",
+            "token_decimal": "6",
+            "last_transaction": "1745527331"
+          },
+          {
+            "contract_address": "0xb6b15d694b07411823fe04ecd27399f18c521574",
+            "token_name": "Pump",
+            "token_symbol": "PUMP",
+            "token_decimal": "18",
+            "last_transaction": "1745068499"
+          },
+          {
+            "contract_address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "token_name": "Wrapped BTC",
+            "token_symbol": "WBTC",
+            "token_decimal": "8",
+            "last_transaction": "1744817675"
+          },
+          {
+            "contract_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "token_name": "Wrapped Ether",
+            "token_symbol": "WETH",
+            "token_decimal": "18",
+            "last_transaction": "1744364279"
+          },
+          {
+            "contract_address": "0x5fb249dbad777690a057a7778ff1ef42d3c8ee29",
+            "token_name": "USD\u0421",
+            "token_symbol": "USD\u0421",
+            "token_decimal": "6",
+            "last_transaction": "1744160279"
+          },
+          {
+            "contract_address": "0xc06228ba05dab66b8a615727f4f553a13139340e",
+            "token_name": "Circle USD",
+            "token_symbol": "Circle USD",
+            "token_decimal": "18",
+            "last_transaction": "1744160171"
+          },
+          {
+            "contract_address": "0x271590d858ef858ba411372d221035bf67014f41",
+            "token_name": "T\u0435th\u0435r U\u0405D",
+            "token_symbol": "U\u0405D\u0422",
+            "token_decimal": "6",
+            "last_transaction": "1743718151"
+          },
+          {
+            "contract_address": "0x018008bfb33d285247a21d44e50697654f754e63",
+            "token_name": "Aave Ethereum DAI",
+            "token_symbol": "aEthDAI",
+            "token_decimal": "18",
+            "last_transaction": "1743087899"
+          },
+          {
+            "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "token_name": "Dai Stablecoin",
+            "token_symbol": "DAI",
+            "token_decimal": "18",
+            "last_transaction": "1743049727"
+          },
+          {
+            "contract_address": "0xf111118d62b23be6efd6505ff308db768f7086dc",
+            "token_name": "Baby Uno",
+            "token_symbol": "BABYUNO",
+            "token_decimal": "9",
+            "last_transaction": "1741789931"
+          },
+          {
+            "contract_address": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+            "token_name": "GHO Token",
+            "token_symbol": "GHO",
+            "token_decimal": "18",
+            "last_transaction": "1741238639"
+          },
+          {
+            "contract_address": "0xc202189814b96788b9711197b509574e51300ff0",
+            "token_name": "",
+            "token_symbol": "Airdrop(s) to be claimed at https://t.ly/drops",
+            "token_decimal": "18",
+            "last_transaction": "1741230911"
+          },
+          {
+            "contract_address": "0xcf6053a5e7f86216ff2c59257a9609714ae8de6c",
+            "token_name": "AIDOG",
+            "token_symbol": "AIDOG",
+            "token_decimal": "8",
+            "last_transaction": "1740639671"
+          },
+          {
+            "contract_address": "0x874c770493450c34ccc7e903664ef1d65b01880b",
+            "token_name": "CRAZY AI",
+            "token_symbol": "Crazy Ai",
+            "token_decimal": "8",
+            "last_transaction": "1740559175"
+          }
+        ],
+        "quicknode_data": {
+          "address": "0x38e247893BbC8517a317c54Ed34F9C62cb5F26c0",
+          "is_contract": false,
+          "address_type": "Externally Owned Account (EOA)",
+          "eth_balance": 0.04897185333511634,
+          "transaction_count": 139,
+          "analysis_timestamp": "2025-09-10T00:54:09.151642"
+        }
+      },
+      "contract_interactions_sample": [
+        {
+          "hash": "0xb5ab3cb425f1561437ef8a27b3afac17afbf86daeda1a3b22a49d9a91e6bb16c",
+          "to": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+          "function_name": "",
+          "method_id": "0xfc5f1003",
+          "input_data": "0xfc5f1003000000000000000000000000000000000000000000000000000000000000006038e247893bbc8517a317c54ed34f9c62cb5f26c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000398d853e2ef215de638d671b50310de429da1f7986c71df9a05f2b8b4deea49719000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000038e247893bbc8517a317c54ed34f9c62cb5f26c00000000000000000000000000000000000000000000000000011c37937e08000000000000000000000000000000000000000000000000000000000000000a4b100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c6761735a6970427269646765000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000095f617262697472756d0000000000000000000000000000000000000000000000",
+          "value": 0.005,
+          "gas_used": 56845,
+          "gas_price": 1133800665,
+          "timestamp": 1757217035,
+          "status": "1",
+          "block_number": 23308638
+        },
+        {
+          "hash": "0x0db392b42833f99377f480d6dabc7632ea42b149d34a6a6bbc6754055080316a",
+          "to": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "function_name": "transfer(address _to, uint256 _value)",
+          "method_id": "0xa9059cbb",
+          "input_data": "0xa9059cbb0000000000000000000000006379c1d0b8396d175304ff799dce775f159b5577000000000000000000000000000000000000000000000001b0929bd81fef4f58",
+          "value": 0.0,
+          "gas_used": 56620,
+          "gas_price": 1766851739,
+          "timestamp": 1756917575,
+          "status": "1",
+          "block_number": 23283834
+        },
+        {
+          "hash": "0x844cb771528fd74fe1b480895dc5790a4e55bbcb2b8efaf188d9fe0bf74f761f",
+          "to": "0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8",
+          "function_name": "transfer(address _to, uint256 _value)",
+          "method_id": "0xa9059cbb",
+          "input_data": "0xa9059cbb0000000000000000000000006379c1d0b8396d175304ff799dce775f159b5577000000000000000000000000000000000000000000000000c16b6c880e6a620e",
+          "value": 0.0,
+          "gas_used": 131062,
+          "gas_price": 1752496425,
+          "timestamp": 1756917443,
+          "status": "1",
+          "block_number": 23283823
+        },
+        {
+          "hash": "0x52537b12608c22f9555d35ced2bd21b0c1e84b19aa6f22b266a9669e5d3ae73b",
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "function_name": "transfer(address _to, uint256 _value)",
+          "method_id": "0xa9059cbb",
+          "input_data": "0xa9059cbb0000000000000000000000006379c1d0b8396d175304ff799dce775f159b55770000000000000000000000000000000000000000000000000000004922d5526f",
+          "value": 0.0,
+          "gas_used": 142923,
+          "gas_price": 1745851764,
+          "timestamp": 1756917371,
+          "status": "1",
+          "block_number": 23283817
+        },
+        {
+          "hash": "0x18c7a1a02e87d2cad5786e71c65d34419fe61b854a8c4796dfdcfd3cae82eb76",
+          "to": "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44",
+          "function_name": "transfer(address _to, uint256 _value)",
+          "method_id": "0xa9059cbb",
+          "input_data": "0xa9059cbb0000000000000000000000006379c1d0b8396d175304ff799dce775f159b55770000000000000000000000000000000000000000000000000000002d3fdc5bc9",
+          "value": 0.0,
+          "gas_used": 47366,
+          "gas_price": 1807933040,
+          "timestamp": 1756917275,
+          "status": "1",
+          "block_number": 23283809
+        }
+      ]
+    }
+  },
+  "0x51db92258a3ab0f81de0feab5d59a77e49b57275": {
+    "wallet_address": "0x51db92258a3ab0f81de0feab5d59a77e49b57275",
+    "analysis_timestamp": "2025-09-10T00:54:43.148708",
+    "analysis_duration_seconds": 22.19,
+    "risk_score": 74.6,
+    "risk_level": "HIGH",
+    "risk_description": "High-risk wallet requiring significant caution",
+    "component_scores": {
+      "transaction_patterns": 62.5,
+      "protocol_interactions": 100.0,
+      "asset_concentration": 46.0,
+      "behavioral_patterns": 58.5
+    },
+    "component_weights": {
+      "transaction_patterns": 0.25,
+      "protocol_interactions": 0.3,
+      "asset_concentration": 0.2,
+      "activity_frequency": 0.15,
+      "failure_rate": 0.1
+    },
+    "risk_factors": [
+      "High success rate: 100.0%",
+      "Very high DeFi usage: 91.1%",
+      "High-risk protocols: 1/1",
+      "Low diversification: 0 categories",
+      "Low TVL protocols: $0.0M",
+      "Protocol concentration risk",
+      "Very high-risk protocols: 1",
+      "High diversification: 12 tokens",
+      "Stablecoin exposure: 2 tokens",
+      "Efficient gas usage: 1.8 Gwei",
+      "Accumulation pattern",
+      "New wallet (<90 days)"
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f HIGH RISK: Significant caution required before any interactions",
+      "\ud83c\udfe6 Protocol Risk: Wallet interacts with high-risk DeFi protocols",
+      "\ud83d\udca1 Suggestion: Research protocol security audits and TVL stability",
+      "\u26fd Gas Optimization: Consider using lower gas prices during off-peak hours",
+      "\ud83c\udd95 New Wallet: Monitor activity patterns as wallet establishes history",
+      "\ud83d\udcb5 Stablecoin Holdings: Good risk mitigation through stable assets",
+      "\ud83d\udcc8 Portfolio Management: Continue maintaining diversified holdings"
+    ],
+    "risk_distribution": {
+      "high": [
+        "protocol"
+      ],
+      "medium": [
+        "transaction",
+        "concentration",
+        "behavioral"
+      ],
+      "low": []
+    },
+    "scoring_methods": {
+      "rule_based": {
+        "overall_score": 61.0,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 55.0,
+          "protocol_interactions": 100,
+          "asset_concentration": 30.0,
+          "behavioral_patterns": 45.0
+        }
+      },
+      "llm_based": {
+        "overall_score": 95,
+        "risk_level": "VERY_HIGH",
+        "components": {
+          "transaction_patterns": 80,
+          "protocol_interactions": 100,
+          "asset_concentration": 70,
+          "behavioral_patterns": 90
+        },
+        "reasoning": "This wallet exhibits extremely high risk due to several factors.  The protocol interaction score is maxed out at 100 because the single identified protocol has a risk rating of 100, indicating a potentially very risky or fraudulent platform. The high number of contract interactions (41 out of 45 transactions) suggests active engagement with smart contracts, many of which are unknown or high-risk. While the value flow is relatively low, the sheer number of transactions and the concentration of interactions with specific contracts raise concerns about potential rug pulls, scams, or exploits. The presence of several pre-deposit receipt tokens and the Shiba Inu voucher token further points towards high-risk speculative investments. The behavioral patterns score is high due to the high number of transactions and the concentration on a small number of contracts, suggesting automated or bot-like activity or participation in potentially risky yield farming strategies.  The asset concentration score is moderate because while there's diversification across several tokens, many are high-risk or unknown, and the overall portfolio value is low, suggesting a high-risk tolerance or lack of understanding of risk management.",
+        "key_insights": [
+          "The 100% risk score for the single identified protocol is the most significant risk factor.  Immediate investigation into this protocol is crucial.",
+          "The high number of contract interactions (41/45) and the concentration on specific addresses warrants further scrutiny to identify the nature of these interactions and associated risks.",
+          "The presence of several pre-deposit receipt tokens and meme tokens (Shiba Inu voucher) indicates a high-risk investment strategy with potential for significant losses."
+        ]
+      },
+      "hybrid": {
+        "overall_score": 74.6,
+        "risk_level": "HIGH",
+        "components": {
+          "transaction_patterns": 62.5,
+          "protocol_interactions": 100.0,
+          "asset_concentration": 46.0,
+          "behavioral_patterns": 58.5
+        },
+        "methodology": "60% rule-based + 40% Gemini"
+      }
+    },
+    "transaction_summary": {
+      "total_transactions": 45,
+      "success_rate": 100.0,
+      "recent_activity": 3,
+      "contract_interactions": 41,
+      "unique_addresses": 16,
+      "high_value_transactions": 0,
+      "activity_frequency": 0.5143894086585709,
+      "avg_gas_price": 1.7956571223777777,
+      "total_fees_paid": 0.010577529591035353
+    },
+    "protocol_summary": {
+      "protocols_identified": 1,
+      "protocols_interacted": 1,
+      "high_risk_protocols": 1,
+      "average_protocol_risk": 100,
+      "diversification_score": 0,
+      "total_tvl_exposure": 0,
+      "protocol_categories": [],
+      "risk_distribution": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 1
+      }
+    },
+    "asset_summary": {
+      "eth_balance": 0.013025076779922817,
+      "token_types": 12,
+      "is_contract": false,
+      "address_type": "Externally Owned Account (EOA)",
+      "quicknode_tx_count": 44
+    },
+    "detailed_analysis": {
+      "transaction_risk_details": {
+        "risk_score": 55.0,
+        "reasons": [
+          "High success rate: 100.0%",
+          "Very high DeFi usage: 91.1%"
+        ],
+        "metrics": {
+          "success_rate": 1.0,
+          "activity_frequency": 0.5143894086585709,
+          "high_value_ratio": 0.0,
+          "contract_interaction_ratio": 0.9111111111111111,
+          "recent_activity": 3
+        }
+      },
+      "protocol_risk_details": {
+        "risk_score": 100,
+        "reasons": [
+          "High-risk protocols: 1/1",
+          "Low diversification: 0 categories",
+          "Low TVL protocols: $0.0M",
+          "Protocol concentration risk",
+          "Very high-risk protocols: 1"
+        ],
+        "metrics": {
+          "average_protocol_risk": 85.0,
+          "high_risk_protocol_ratio": 1.0,
+          "diversification_score": 0,
+          "total_tvl": 0,
+          "risk_distribution": {
+            "low": 0,
+            "medium": 0,
+            "high": 0,
+            "very_high": 1
+          }
+        }
+      },
+      "asset_risk_details": {
+        "risk_score": 30.0,
+        "reasons": [
+          "High diversification: 12 tokens",
+          "Stablecoin exposure: 2 tokens"
+        ],
+        "metrics": {
+          "eth_balance": 0.013025076779922817,
+          "token_count": 12,
+          "asset_diversification": "high"
+        }
+      },
+      "behavioral_risk_details": {
+        "risk_score": 45.0,
+        "reasons": [
+          "Efficient gas usage: 1.8 Gwei",
+          "Accumulation pattern",
+          "New wallet (<90 days)"
+        ],
+        "metrics": {
+          "avg_gas_price": 1.7956571223777777,
+          "value_flow_ratio": 0.023399999999999997,
+          "largest_transaction": 0.046962138572265166,
+          "interaction_diversity": 0.3333333333333333,
+          "wallet_age_days": 87.48236111111112
+        }
+      }
+    },
+    "raw_data": {
+      "transaction_patterns": {
+        "total_transactions": 45,
+        "successful_transactions": 45,
+        "failed_transactions": 0,
+        "unique_addresses": 16,
+        "contract_interactions": 41,
+        "high_value_transactions": 0,
+        "recent_activity": 3,
+        "gas_analysis": {
+          "total_gas_used": 5670811,
+          "avg_gas_price": 1.7956571223777777,
+          "total_fees": 0.010577529591035353
+        },
+        "time_analysis": {
+          "first_transaction": 1749360011,
+          "last_transaction": 1756918487,
+          "activity_frequency": 0.5143894086585709
+        },
+        "value_analysis": {
+          "total_value_in": 0.046962138572265166,
+          "total_value_out": 0.023399999999999997,
+          "largest_transaction": 0.046962138572265166,
+          "avg_transaction_value": 0.0015636030793836704
+        },
+        "address_interactions": {
+          "most_frequent_addresses": {
+            "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f": 9,
+            "0x888888888889758f76e7103c6cbf23abbf58f946": 8,
+            "0xe93b4a93e80bd3065b290394264af5d82422ee70": 4,
+            "0x8a0fd334530fc8513d673225b3763e688f53dd0d": 3,
+            "0xa62b204099277762d1669d283732dcc1b3aa96ce": 3,
+            "0x4c9edd5852cd905f086c759e8383e09bff1e68b3": 3,
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 3,
+            "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae": 3,
+            "0xdac17f958d2ee523a2206206994597c13d831ec7": 2,
+            "0x6307119078556fc8ad77781dfc67df20d75fb4f9": 2
+          },
+          "interaction_diversity": 15
+        }
+      },
+      "protocol_analysis": {
+        "protocols": [
+          {
+            "name": "Unknown Protocol",
+            "risk_score": 85.0,
+            "tvl": 0,
+            "category": "Unknown",
+            "chains": []
+          }
+        ],
+        "average_risk": 100,
+        "raw_average_risk": 85.0,
+        "high_risk_protocols": 1,
+        "total_tvl_interacted": 0,
+        "diversification_score": 0,
+        "categories": [],
+        "total_protocols": 1,
+        "concentration_penalty": 15,
+        "risk_distribution": {
+          "low": 0,
+          "medium": 0,
+          "high": 0,
+          "very_high": 1
+        }
+      },
+      "balance_data": {
+        "eth_balance": 0.013025076779922817,
+        "tokens": [
+          {
+            "contract_address": "0x38ea108eb96ce7fdd7fd455b4ebf8e765495532e",
+            "token_name": "Token",
+            "token_symbol": "ERC20",
+            "token_decimal": "18",
+            "last_transaction": "1754731727"
+          },
+          {
+            "contract_address": "0xe49462ffd604d35061fb6937626f675873314c93",
+            "token_name": "YT Strata Pre-deposit Receipt Token 16OCT2025",
+            "token_symbol": "YT-pUSDe-16OCT2025",
+            "token_decimal": "18",
+            "last_transaction": "1754731691"
+          },
+          {
+            "contract_address": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+            "token_name": "Strata Pre-deposit Receipt Token",
+            "token_symbol": "pUSDe",
+            "token_decimal": "18",
+            "last_transaction": "1754731691"
+          },
+          {
+            "contract_address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+            "token_name": "USDe",
+            "token_symbol": "USDe",
+            "token_decimal": "18",
+            "last_transaction": "1754731571"
+          },
+          {
+            "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "token_name": "Tether USD",
+            "token_symbol": "USDT",
+            "token_decimal": "6",
+            "last_transaction": "1754731475"
+          },
+          {
+            "contract_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "token_name": "USDC",
+            "token_symbol": "USDC",
+            "token_decimal": "6",
+            "last_transaction": "1753096019"
+          },
+          {
+            "contract_address": "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
+            "token_name": "Ethereal Pre-deposit Vault",
+            "token_symbol": "eUSDe",
+            "token_decimal": "18",
+            "last_transaction": "1751087159"
+          },
+          {
+            "contract_address": "0x808507121b80c02388fad14726482e061b8da827",
+            "token_name": "Pendle",
+            "token_symbol": "PENDLE",
+            "token_decimal": "18",
+            "last_transaction": "1751087111"
+          },
+          {
+            "contract_address": "0xe93b4a93e80bd3065b290394264af5d82422ee70",
+            "token_name": "PENDLE-LPT",
+            "token_symbol": "PENDLE-LPT",
+            "token_decimal": "18",
+            "last_transaction": "1751087111"
+          },
+          {
+            "contract_address": "0x92c667bb74ef5fb5dd5d7a9d20a34b85f8bf049e",
+            "token_name": "\u2705 SHIBA VOUCHER",
+            "token_symbol": "Swap your Voucher on bio.link/shibax",
+            "token_decimal": "0",
+            "last_transaction": "1751086847"
+          },
+          {
+            "contract_address": "0xe8ef806c8aadc541408dcad36107c7d26a391712",
+            "token_name": "YT-eUSDE-14AUG2025",
+            "token_symbol": "YT-eUSDE-14AUG2025",
+            "token_decimal": "18",
+            "last_transaction": "1749532835"
+          },
+          {
+            "contract_address": "0x66a3c2fa3e467aa586e90912f977e648589cabaf",
+            "token_name": "AI Chain Coin",
+            "token_symbol": "AICC",
+            "token_decimal": "8",
+            "last_transaction": "1749360563"
+          }
+        ],
+        "quicknode_data": {
+          "address": "0x51db92258a3ab0f81de0feab5d59a77e49b57275",
+          "is_contract": false,
+          "address_type": "Externally Owned Account (EOA)",
+          "eth_balance": 0.013025076779922817,
+          "transaction_count": 44,
+          "analysis_timestamp": "2025-09-10T00:54:23.790120"
+        }
+      },
+      "contract_interactions_sample": [
+        {
+          "hash": "0xf12b70a422772545042a42bf7dcad285a06cb3fd69884d73b60fff5130347fd4",
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "function_name": "approve(address _spender, uint256 _value)",
+          "method_id": "0x095ea7b3",
+          "input_data": "0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000000",
+          "value": 0.0,
+          "gas_used": 26360,
+          "gas_price": 1279620609,
+          "timestamp": 1754733743,
+          "status": "1",
+          "block_number": 23102773
+        },
+        {
+          "hash": "0x9f86c03d169cf6d42bba1c9875485badc7b2b5242b513578e9029eb4978aa1d4",
+          "to": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+          "function_name": "approve(address _spender, uint256 _value)",
+          "method_id": "0x095ea7b3",
+          "input_data": "0x095ea7b3000000000000000000000000888888888889758f76e7103c6cbf23abbf58f9460000000000000000000000000000000000000000000000000000000000000000",
+          "value": 0.0,
+          "gas_used": 29496,
+          "gas_price": 1008877040,
+          "timestamp": 1754733719,
+          "status": "1",
+          "block_number": 23102771
+        },
+        {
+          "hash": "0x7733dc3dcaaa69f526eaa1ad96a09f2190ce82e9225c59cf666e90915c2523be",
+          "to": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+          "function_name": "approve(address _spender, uint256 _value)",
+          "method_id": "0x095ea7b3",
+          "input_data": "0x095ea7b3000000000000000000000000888888888889758f76e7103c6cbf23abbf58f94600000000000000000000000000000000000000000000003628ad41901bb83000",
+          "value": 0.0,
+          "gas_used": 51492,
+          "gas_price": 808321622,
+          "timestamp": 1754731703,
+          "status": "1",
+          "block_number": 23102604
+        },
+        {
+          "hash": "0x0d3b17d164bba6317c16fd7388c7a68bba5a196a1fb40190769c51864c310c79",
+          "to": "0x888888888889758f76e7103c6cbf23abbf58f946",
+          "function_name": "swapExactTokenForYt(address receiver,address market,uint256 minYtOut,tuple guessYtOut,tuple input,tuple limit)",
+          "method_id": "0xed48907e",
+          "input_data": "0xed48907e00000000000000000000000051db92258a3ab0f81de0feab5d59a77e49b57275000000000000000000000000f4c449d6a2d1840625211769779ada42857d04dd000000000000000000000000000000000000000000000935d441a798d4824efd0000000000000000000000000000000000000000000004a0d706d4c732da244c00000000000000000000000000000000000000000000097ced37cd7544800ece000000000000000000000000000000000000000000000941ae0da98e65b44898000000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000000000000000009184e72a00000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000280000000000000000000000000a62b204099277762d1669d283732dcc1b3aa96ce00000000000000000000000000000000000000000000003628ad41901bb83000000000000000000000000000a62b204099277762d1669d283732dcc1b3aa96ce000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "value": 0.0,
+          "gas_used": 310488,
+          "gas_price": 819008431,
+          "timestamp": 1754731691,
+          "status": "1",
+          "block_number": 23102603
+        },
+        {
+          "hash": "0x444717ed6a63cadeb0f337dc1ed492993622609093b52bdf3b35f3d27b56bee9",
+          "to": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+          "function_name": "approve(address _spender, uint256 _value)",
+          "method_id": "0x095ea7b3",
+          "input_data": "0x095ea7b3000000000000000000000000888888888889758f76e7103c6cbf23abbf58f94600000000000000000000000000000000000000000000003628ad41901bb83000",
+          "value": 0.0,
+          "gas_used": 51492,
+          "gas_price": 1026924846,
+          "timestamp": 1754731631,
+          "status": "1",
+          "block_number": 23102598
+        }
+      ]
+    }
+  }
+}
